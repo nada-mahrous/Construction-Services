@@ -1,0 +1,141 @@
+.projects img
+{
+    cursor: pointer;
+}
+.caption
+{
+    position: relative;
+    /* ana 3yza aol lel member ele y3de a2t3o a5feh 3lshan kda
+    3mlt overflow: hidden */
+    /* overflow: hidden;  */
+}
+.project_layer-caption
+{
+    width: 400px !important ;
+    background-color: rgba(255, 116, 23, 0.6);
+    opacity: 0;
+    padding: 50px 55px 45px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    cursor: pointer;
+    transform: scale(0.8);
+    transition: width 0.5s ease, 
+    opacity 0.5s ease , 
+    transform 0.5s ease;
+    width: auto;
+}
+.project_layer-caption:hover
+{
+    opacity: 1;
+    transform: scale(1);
+    /* width: 100% !important; */
+}
+.caption_line
+{
+    width: 50px;
+    height: 0.8px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 19px 0;
+    /* margin-top: 19px;
+    margin-bottom: 19px; */
+}
+.img-icon
+{
+    font-size: 40px;
+    /* transform: translateY(30px); */
+    /* transition: transform 0.5s ease; */
+}
+/* .img-icon:hover
+{
+    transform: translateY(1px);
+} */
+.project_layer-caption span
+{
+    margin-top: 10px;
+    /* transform: translateY(30px); */
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    /* transition: transform 0.5s ease; */
+}
+/* .project_layer-caption span:hover
+{
+    transform: translateY(1px);
+} */
+
+.project_layer-caption .caption-heading
+{
+    /* transform: translateY(30px); */
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+.project_layer-caption .caption-heading2
+{
+    /* transform: translateY(-40px); */
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.plus-icon
+{
+    position: absolute;
+    right: 18px;
+    bottom: 13px;
+    margin-top: 10px;
+    font-size: 40px;
+
+}
+
+
+
+/* ////////////////////////////////////////// */
+/* ////////////////////////////////////////// */
+
+/* meadia query 
+   -----------
+*/
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+    .project_layer-caption
+    {
+        width: 324px !important;
+    }
+}
+
+
+/* //////////////////// */
+
+
+@media only screen and (min-width: 653px) and (max-width: 768px)
+{
+    .project_layer-caption
+    {
+        width: 516px !important;
+    }
+}
+
+/* ///////////// */
+
+@media only screen and (max-width: 653px)
+{
+    .project_layer-caption
+    {
+        width: 490px !important;
+    }
+}

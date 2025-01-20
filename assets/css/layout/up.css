@@ -1,0 +1,25 @@
+.arrow-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--main-color) !important;
+    width: 50px; 
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.arrow-up:hover 
+{
+    background-color: #000 !important; /* الخلفية تتحول للأسود */
+}
+
+div.arrow-up a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+

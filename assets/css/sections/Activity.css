@@ -1,0 +1,80 @@
+/* banner */
+.activity
+{
+    height: 323px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.layer_activity
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.layer_activity .container .row
+{
+    height: 323px !important;
+}
+.activity_icon i
+{
+    color: white;
+    font-size: 44px;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+.activity_tittle span
+{   
+    color: var(--main-color);
+    padding-top: 30px !important;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.activity_tittle p
+{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* @media only screen and (min-width:785px) and (max-width:1217px) */
+
+
+/* media query */
+@media only screen and (min-width:767px) and (max-width:990px)
+{
+    .activity_last-item
+    {
+        /* background-color: tomato; */
+        margin-bottom: 50px;
+        margin: auto;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:988px)
+{
+    .activity
+    {
+        height: 470px; 
+    }
+    .layer_activity .container .row
+    {
+        height: 470px !important;
+    }
+}
+@media only screen and (max-width:767px)
+{
+    .activity
+    {
+        height: 813px; 
+    }
+    .layer_activity .container .row
+    {
+        height: 813px !important; 
+    }
+}

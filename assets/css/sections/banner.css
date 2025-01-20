@@ -1,0 +1,60 @@
+.banner
+{
+    height: 206px;
+    background-attachment: fixed;
+    background-color: var(--main-color);
+}
+.banner_text
+{
+    font-size: 30px;
+    line-height: 1.43333;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+.banner_btns button
+{
+    background-color: white;
+    color: black;
+    margin-right: auto;
+}
+.banner .container .row
+{
+    height: 206px;
+}
+
+/* ////////////////////////////////////////// */
+/* ////////////////////////////////////////// */
+
+/* meadia query 
+   -----------
+*/
+@media only screen and (min-width:1199px) and (max-width:1400px)
+{
+    
+    .heading-decore
+    {
+        /* text-align: center; */
+        width: 550px;
+        /* background-color: tomato; */
+    }
+    .banner_btns
+    {
+        /* text-align: center; */
+        width: 100%;
+        /* background-color: rgb(117, 190, 147); */
+    }
+}
+
+@media only screen and (max-width:1200px)
+{
+    .heading-decore
+    {
+        text-align: center;
+    }
+    .banner_btns
+    {
+        text-align: center;
+        /* background-color: aqua; */
+    }
+}

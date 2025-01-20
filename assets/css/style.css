@@ -1,0 +1,49 @@
+
+
+
+/* plugins */
+@import "plugins/css/all.min.css";
+@import "plugins/css/bootstrap.min.css";
+
+
+
+/* fonts */
+@import "../fonts/fonts.css";
+
+
+
+/* global */
+@import "global/global.css";
+
+
+
+/* layout */
+@import "layout/navbar.css";
+@import "layout/header.css";
+@import "layout/footer.css";
+
+
+
+/* sections */
+@import "sections/About.css";
+@import "sections/Activity.css";
+@import "sections/Projects.css";
+@import "sections/banner.css";
+@import "sections/Services.css";
+@import "sections/testimonials.css";
+@import "sections/news.css";
+@import "sections/location.css";
+@import "layout/footer.css";
+@import "layout/up.css";
+
+
+
+
+
+
+
+
+
+
+
+
